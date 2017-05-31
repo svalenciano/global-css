@@ -32,3 +32,9 @@ section{
     float: left;
     margin-left: 10px;    
 }
+
+
+span em{
+    font-size: 12px;
+    font-style: italic;
+}

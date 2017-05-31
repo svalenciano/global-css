@@ -1,4 +1,6 @@
 
+
+/*	FONTS 	*/
 @font-face {
     font-family: bbvaDefaultFont;
     src: url("https://storage.googleapis.com/bbva-front.appspot.com/fonts/bbvaweb/bbvaweb-book.woff") format("woff"), url("https://storage.googleapis.com/bbva-front.appspot.com/fonts/bbvaweb/bbvaweb-book.ttf") format("opentype"), url("https://storage.googleapis.com/bbva-front.appspot.com/fonts/bbvaweb/bbvaweb-book.svg") format("SVG"), url("https://storage.googleapis.com/bbva-front.appspot.com/fonts/bbvaweb/bbvaweb-book.eot") format("embedded-opentype");
@@ -9,16 +11,18 @@
     src: url("https://storage.googleapis.com/bbva-front.appspot.com/fonts/bbvaweb/bbvaweb-light.woff") format("woff"), url("https://storage.googleapis.com/bbva-front.appspot.com/fonts/bbvaweb/bbvaweb-light.ttf") format("opentype"), url("https://storage.googleapis.com/bbva-front.appspot.com/fonts/bbvaweb/bbvaweb-light.svg") format("SVG"), url("https://storage.googleapis.com/bbva-front.appspot.com/fonts/bbvaweb/bbvaweb-light.eot") format("embedded-opentype");
 }
 
-
 .bbva{ font-family: bbvaDefaultFont; }
 .bbva_light{ font-family: bbvaLightFont; }
 
+
+/*	HEADERS	*/
 .bbva_h1{ font-size: 28pt; color: #072146;}
 .bbva_h2{ font-size: 24pt; color: #004481; }
 .bbva_h3{ font-size: 20pt; color: #1464A5; }
 .bbva_h4{ font-size: 18pt; color: #043263; }
 .bbva_h5{ font-size: 16pt; color: #2A86CA; }
 .bbva_h6{ font-size: 12pt; color: #49A5E6; }
+
 
 
 /*	COLORS	*/
@@ -158,5 +162,3 @@
 .bg_whitePurple{ background-color: #ddd7f7; }
 .bg_lightPurple{ background-color: #b6a8ee; }
 .bg_darkPurple{ background-color: #7c6ac7; }
-
-
