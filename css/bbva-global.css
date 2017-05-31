@@ -1,0 +1,162 @@
+
+@font-face {
+    font-family: bbvaDefaultFont;
+    src: url("https://storage.googleapis.com/bbva-front.appspot.com/fonts/bbvaweb/bbvaweb-book.woff") format("woff"), url("https://storage.googleapis.com/bbva-front.appspot.com/fonts/bbvaweb/bbvaweb-book.ttf") format("opentype"), url("https://storage.googleapis.com/bbva-front.appspot.com/fonts/bbvaweb/bbvaweb-book.svg") format("SVG"), url("https://storage.googleapis.com/bbva-front.appspot.com/fonts/bbvaweb/bbvaweb-book.eot") format("embedded-opentype");
+}
+
+@font-face {
+    font-family: bbvaLightFont;
+    src: url("https://storage.googleapis.com/bbva-front.appspot.com/fonts/bbvaweb/bbvaweb-light.woff") format("woff"), url("https://storage.googleapis.com/bbva-front.appspot.com/fonts/bbvaweb/bbvaweb-light.ttf") format("opentype"), url("https://storage.googleapis.com/bbva-front.appspot.com/fonts/bbvaweb/bbvaweb-light.svg") format("SVG"), url("https://storage.googleapis.com/bbva-front.appspot.com/fonts/bbvaweb/bbvaweb-light.eot") format("embedded-opentype");
+}
+
+
+.bbva{ font-family: bbvaDefaultFont; }
+.bbva_light{ font-family: bbvaLightFont; }
+
+.bbva_h1{ font-size: 28pt; color: #072146;}
+.bbva_h2{ font-size: 24pt; color: #004481; }
+.bbva_h3{ font-size: 20pt; color: #1464A5; }
+.bbva_h4{ font-size: 18pt; color: #043263; }
+.bbva_h5{ font-size: 16pt; color: #2A86CA; }
+.bbva_h6{ font-size: 12pt; color: #49A5E6; }
+
+
+/*	COLORS	*/
+
+/*	BBVA Corporate Palette */
+.blueNavy { color: #072146; }
+.coreBlue { color: #004481; }
+.whiteCoreBlue { color: #1464A5; }
+.darkCoreBlue { color: #043263; }
+.mediumBlue { color: #2A86CA; }
+.whiteMediumBlue { color: #49A5E6; }
+.darkMediumBlue { color: #1464A5; }
+.lightBlue { color: #5BBEFF; }
+.whiteLightBlue { color: #D4EDFC; }
+.darkLightBlue { color: #49A5E6; }
+
+/*	BBVA Secondary Palette	*/
+.aqua{ color: #2dcccd; }
+.whiteAqua{ color: #eaf9fa; }
+.lightAqua { color: #5ac4c4; }
+.darkAqua { color: #02a5a5; }
+.grey600 { color: #121212; }
+.grey500 { color: #666666; }
+.grey400 { color: #BDBDBD; }
+.grey300 { color: #D3D3D3; }
+.grey200 { color: #E9E9E9; }
+.grey100 { color: #F4F4F4; }
+.white { color: #FFFFFF; }
+
+/*	BBVA Tertiary Palette	*/
+.red{ color: #da3851; }
+.whiteRed{ color: #f4c3ca; }
+.lightRed{ color:#e77d8e; }
+.darkRed{ color: #b92a45; }
+
+.coral{ color: #f35e61; }
+.whiteCoral{ color: #fcdfdf; }
+.lightCoral{ color: #f59799; }
+.darkCoral{ color: #d44b50; }
+
+.orange{ color: #f7893b; }
+.whiteOrange{ color: #fde7d8; }
+.lightOrange{ color: #fab27f; }
+.darkOrange{ color: #d8732c; }
+
+.green{ color: #48ae64; }
+.whiteGreen{ color: #d9efe0; }
+.lightGreen{ color: #88ca9a; }
+.darkGreen{ color: #388d4f; }
+
+.yellow{ color: #f8cd51; }
+.whiteYellow{ color: #fef5dc; }
+.lightYellow{ color: #fade8e; }
+.darkYellow{ color: #c49735; }
+
+.pink{ color: #f78be8; }
+.whitePink{ color: #fddcf8; }
+.lightPink{ color: #fab3f0; }
+.darkPink{ color: #c569b9; }
+
+.gold{ color: #d8be75; }
+.whiteGold{ color:#f3ebd5; }
+.lightGold{ color: #e6d5a5; }
+.darkGold{ color: #b79e5e; }
+
+.purple{ color: #8f7ae5; }
+.whitePurple{ color: #ddd7f7; }
+.lightPurple{ color: #b6a8ee; }
+.darkPurple{ color: #7c6ac7; }
+
+
+
+/*	BACKGROUND COLOR	*/
+
+/*	BBVA Corporate Palette */
+.bg_blueNavy { background-color: #072146; }
+.bg_coreBlue { background-color: #004481; }
+.bg_whiteCoreBlue { background-color: #1464A5; }
+.bg_darkCoreBlue { background-color: #043263; }
+.bg_mediumBlue { background-color: #2A86CA; }
+.bg_whiteMediumBlue { background-color: #49A5E6; }
+.bg_darkMediumBlue { background-color: #1464A5; }
+.bg_lightBlue { background-color: #5BBEFF; }
+.bg_whiteLightBlue { background-color: #D4EDFC; }
+.bg_darkLightBlue { background-color: #49A5E6; }
+
+/*	BBVA Secondary Palette	*/
+.bg_aqua{ background-color: #2dcccd; }
+.bg_whiteAqua{ background-color: #eaf9fa; }
+.bg_lightAqua { background-color: #5ac4c4; }
+.bg_darkAqua { background-color: #02a5a5; }
+.bg_grey600 { background-color: #121212; }
+.bg_grey500 { background-color: #666666; }
+.bg_grey400 { background-color: #BDBDBD; }
+.bg_grey300 { background-color: #D3D3D3; }
+.bg_grey200 { background-color: #E9E9E9; }
+.bg_grey100 { background-color: #F4F4F4; }
+.bg_white { background-color: #FFFFFF; }
+
+/*	BBVA Tertiary Palette	*/
+.bg_red{ background-color: #da3851; }
+.bg_whiteRed{ background-color: #f4c3ca; }
+.bg_lightRed{ background-color:#e77d8e; }
+.bg_darkRed{ background-color: #b92a45; }
+
+.bg_coral{ background-color: #f35e61; }
+.bg_whiteCoral{ background-color: #fcdfdf; }
+.bg_lightCoral{ background-color: #f59799; }
+.bg_darkCoral{ background-color: #d44b50; }
+
+.bg_orange{ background-color: #f7893b; }
+.bg_whiteOrange{ background-color: #fde7d8; }
+.bg_lightOrange{ background-color: #fab27f; }
+.bg_darkOrange{ background-color: #d8732c; }
+
+.bg_green{ background-color: #48ae64; }
+.bg_whiteGreen{ background-color: #d9efe0; }
+.bg_lightGreen{ background-color: #88ca9a; }
+.bg_darkGreen{ background-color: #388d4f; }
+
+.bg_yellow{ background-color: #f8cd51; }
+.bg_whiteYellow{ background-color: #fef5dc; }
+.bg_lightYellow{ background-color: #fade8e; }
+.bg_darkYellow{ background-color: #c49735; }
+
+.bg_pink{ background-color: #f78be8; }
+.bg_whitePink{ background-color: #fddcf8; }
+.bg_lightPink{ background-color: #fab3f0; }
+.bg_darkPink{ background-color: #c569b9; }
+
+.bg_gold{ background-color: #d8be75; }
+.bg_whiteGold{ background-color:#f3ebd5; }
+.bg_lightGold{ background-color: #e6d5a5; }
+.bg_darkGold{ background-color: #b79e5e; }
+
+.bg_purple{ background-color: #8f7ae5; }
+.bg_whitePurple{ background-color: #ddd7f7; }
+.bg_lightPurple{ background-color: #b6a8ee; }
+.bg_darkPurple{ background-color: #7c6ac7; }
+
+
